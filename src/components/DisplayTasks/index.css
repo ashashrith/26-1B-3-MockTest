@@ -1,0 +1,36 @@
+.li {
+  background-color: transparent;
+  height: auto;
+  width: auto;
+  margin-right: 12px;
+}
+
+.non-active {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: transparent;
+  border-width: 1px;
+  border-color: #ffffff;
+  border-style: solid;
+  height: 25px;
+  border-radius: 8px;
+  width: auto;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.active {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f3aa4e;
+  border-width: 0px;
+  height: 25px;
+  border-radius: 8px;
+  width: auto;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+}
